@@ -37,9 +37,11 @@ body {
   grid-column: col-start 7 / full-end; }
 
 .features {
-  background-color: #6D5D4B;
   grid-column: center-start / center-end;
-  display: grid; }
+  margin: 15rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem; }
 
 .story__picture {
   background-color: #c69963;
