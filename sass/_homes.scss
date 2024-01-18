@@ -11,12 +11,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 3.5rem;
+    box-shadow: 5px 5px 15px $color-grey-light-2;
 
     &__img {
         width: 100%;
         grid-column: 1 / -1;
         grid-row: 1/ 2;
         z-index: 1;
+       
     }
 
     &__like {

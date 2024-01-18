@@ -1,5 +1,6 @@
 .gallery {
-    background-color: $color-grey-light-1;
+    // background-color: $color-secondary;
+    background: linear-gradient($color-grey-light-1, $color-secondary );
     grid-column: full-start / full-end;
 
     display: grid;
@@ -9,6 +10,7 @@
     padding: 1.5rem;
 
     &__item {
+       
         &--1 {
             grid-row: 1 / span 2;
             grid-column: 1 / span 2;
