@@ -1,5 +1,5 @@
 # Nexter
-On that project i'm practicing CSS-GRID
+On that project i'm focus on CSS-GRID
 
 You can see it on: https://diangrigorov.github.io/Nexter/
 
