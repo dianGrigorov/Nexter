@@ -55,8 +55,8 @@ body {
 
     }
 
-    @media screen and (max-width: $bp-medium) {
-        grid-template-rows: 6rem calc(100vh - 6rem);
+    @media screen and (max-width: $bp-small) {
+        overflow-x: hidden;
 
     }
 }
