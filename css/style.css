@@ -29,6 +29,9 @@ body {
   @media screen and (max-width: 50em) {
     .container {
       grid-template-rows: 6rem calc(100vh - 6rem); } }
+  @media screen and (max-width: 37.5em) {
+    .container {
+      overflow-x: hidden; } }
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Josefin Sans", sans-serif;
